@@ -3,13 +3,12 @@
     $usuario = new Usuario();
     $datosUsuarios = $usuario->leer();
 ?>
-Mostrar / actualizar / eliminar
 <table border="1">
     <thead>
         <tr>
             <th>#</th>
             <th>dni</th>
-            <th>nombres y apellidos</th>
+            <th>usuarios</th>
             <th>tipo</th>
             <th>estado</th>
             <th>&nbsp;</th>

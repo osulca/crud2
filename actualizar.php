@@ -76,6 +76,7 @@ if (!empty($_POST)) {
     if ($filas != 0) {
         header("location: index.php");
     } else {
-        echo "No se ha guaractualizadodado";
+        // echo "No se ha guaractualizadodado";
+	echo "No se ha actualizado";
     }
 }
